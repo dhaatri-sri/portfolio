@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Dhaatri Sri</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+<style>
+
+/*======================================
+//--//-->   ABOUT
+======================================*/
+
+.about-mf .box-shadow-full {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.about-mf .about-img {
+  margin-bottom: 2rem;
+}
+
+.about-mf .about-img img {
+  margin-left: 10px;
+}
+
+
+.skill-mf .progress {
+  /* background-color: #cde1f8; */
+  margin: .5rem 0 1.2rem 0;
+  border-radius: 0;
+  height: .7rem;
+}
+
+.skill-mf .progress .progress-bar {
+  height: .7rem;
+  background-color: #ffbd39;
+}
+
+
+/* Animation styles */
+#typing-animation {
+  position: relative;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 3s steps(20, end) infinite;
+}
+
+#typing-animation:before {
+  content: "";
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: #ccc;
+  animation: typing-cursor 0.5s ease-in-out infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes typing-cursor {
+  from {
+    width: 5px;
+  }
+  to {
+    width: 0;
+  }
+}
+
+
+/* project image zoom effect */
+
+.zoom-effect {
+  overflow: hidden;
+  transition: transform 0.3s ease-out;
+}
+
+.zoom-effect:hover {
+  transform: scale(1.1);
+}
+
+.row d-flex contact-info mb-5{
+	align-items: center;
+}
+
+.circle {
+  width: 150px; /* Adjust the width as needed */
+  height: 150px; /* Adjust the height as needed */
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+}
+
+.circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.position-relative {
+  position: relative;
+}
+
+.arrow-container {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.left-arrow {
+  left: -100px; /* Adjust as necessary */
+}
+
+.right-arrow {
+  right: -100px; /* Adjust as necessary */
+}
+
+.scroll-btn {
+  border-radius: 50px;
+  background: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  pointer-events: all;
+}
+
+.scroll-btn:hover{
+	background: #636262;
+}
+
+.block-20 {
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+#project-container {
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 768px) {
+  .col-md-4 {
+    flex: 0 0 80%;
+    max-width: 80%;
+  }
+}
+.ht{
+	color: rgb(221, 218, 218);
+}
+
+body::-webkit-scrollbar{
+	display: none;
+}
+
+.row::-webkit-scrollbar{
+	display: none;
+}
+
+</style>
+
+
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+	  
+	  
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html">Dhaatri Sri</a>
+	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav nav ml-auto">
+	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+	          <li class="nav-item"><a href="#project-section" class="nav-link"><span>Experience</span></a></li>
+			  <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
+	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+	        </ul>
+	      </div> 
+	    </div>
+	  </nav>
+	  <section id="home-section" class="hero">
+		  <div class="home-slider  owl-carousel">
+	       <div class="slider-item ">
+	      	<div class="overlay"></div>
+	         <div class="container">
+	          <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
+	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/homeimage.png);">
+	          	 <div class="overlay"></div>
+	          	</div>
+		          <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+		          	<div class="text">
+		          		<span class="subheading">Hello!</span>
+			            <h1 class="mb-4 mt-3">I'm <span>Dhaatri Sri Sanisetty</span></h1>
+
+						<!-- Element to contain animated typing -->
+						<span id="typing-animation"></span>
+
+						<script>
+
+						// Initialize the typing animation
+						const typingAnimationElement = document.getElementById('typing-animation');
+
+						// Create an array of typing text
+						const typingTexts = [
+						'Engineer  ',
+						'Data Analyst  ',
+						'Full Stack Developer  ',
+						];
+
+						// Create a function to display the typing animation for a given text
+						function playTypingAnimation(text) {
+						// Loop through each character and add it to the element
+						for (let i = 0; i < text.length; i++) {
+							setTimeout(() => {
+							typingAnimationElement.textContent += text[i];
+							}, i * 200); // Increase the delay to slow down the typing animation
+						}
+
+						// Once the animation is complete, reset the text and start over
+						setTimeout(() => {
+							typingAnimationElement.textContent = '';
+							playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
+						}, text.length * 200);
+						}
+
+						// Start the typing animation loop
+						playTypingAnimation(typingTexts[0]);
+
+						</script>
+
+						<br>
+						<br>
+			            <h2>Specialized in Big Data Analytics</h2>
+						<!-- <h2 class="d-flex" style="margin-bottom: 0">With over 5 years of experience</h2> -->
+						<!-- <br> -->
+			            <p><a href="https://www.linkedin.com/in/dhaatrisri/"  class="btn btn-primary py-3 px-4">Linkedin</a> 
+							<a href="https://github.com/dhaatri-sri" class="btn btn-white btn-outline-white py-3 px-4">Github</a></p>
+		            </div>
+		          </div>
+	        	</div>
+	        </div>
+	      </div>
+		</div>
+    </section>
+
+<br>
+<br>
+
+    <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
+    	<div class="container">
+			<div class="row">
+				<div class="row d-flex align-items-stretch">
+				<!-- <div class="row d-flex"> -->
+					<div class="col-md-6 col-lg-5 d-flex">
+						<div class="img-about img d-flex align-items-stretch">
+							<div class="overlay">
+								<div class="row">
+									<div class="col-sm-6 col-md-5">
+									  <div class="circle">
+										<img src="images/dhaatri.jpg" class="img-fluid rounded b-shadow-a" alt="">
+									  </div>
+									</div>
+									<!-- Details next to profile image -->
+									<div class="col-sm-6 col-md-7">
+									  <div class="about-info">
+										<p><span class="title-s"><strong>Name: </strong> </span> <span>Dhaatri Sri Sanisetty</span></p>
+										<p><span class="title-s"><strong>Experience: </strong> </span> <span>4 Months</span></p>
+										<p><span class="title-s"><strong>Address: </strong></span> <span>Andhra Pradesh, India</span></p>
+									  </div>
+									</div>
+								  </div>
+
+								  <div class="skill-mf">
+									<br>
+									<p class="ht" style="font-size: 0.60cm;"><strong>Skills</strong></p>
+									
+									<div>
+									<h6 class="ht"><b>Web Development:</b></h6>
+									<p> HTML, CSS, Django, JavaScript, MERN stack, SQL</p>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+
+									<h6 class="ht"><b>Programming Languages: </b></h6>
+									<p>Java, Python, C++, DSA, DBMS</p>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+
+									</div>									
+									<h6 class="ht"><b>Big Data Analytics:</b></h6>
+									<p> Hadoop, Hive, R Language, Python Libraries</p>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									
+									<h6 class="ht"><b>Data Analytics and Visualization: </b></h6>
+									<p>Power BI, Tableau, Jupyter Notebooks </p>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									
+								</div>
+								
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
+						<div class="row justify-content-start pb-3">
+							<div class="col-md-12 heading-section ftco-animate">
+								
+								<h1 class="big">About</h1>
+								<h2 class="mb-4">About Me</h2>
+								
+								<p>Aspiring Data analyst with 4 Months of industry experience as an intern. Increased proficiency in Statistical analysis, Data Mining and Predictive
+									Modeling. Obtained practical expertise in Data interpretation and Analysis to promote growth. Proficient Knowledge in programming languages like Java, Python and SQL along with good foundation in PowerBI and Tableau.
+									Excited in using Data-driven insights to support organizations in achieving their objectives.</p>
+								<ul class="about-info mt-4 px-md-0 px-2">
+									<li class="d-flex"><span>Profile:</span> <span>Data Science &amp; Analytics</span></li>
+									<li class="d-flex"><span>Degree:</span> <span>Bachelor of Technology</span></li>
+									<li class="d-flex"><span>Branch:</span> <span>Computer Science Engineering</span></li>
+									<li class="d-flex"><span>Language:</span> <span>English, Telugu, Hindi</span></li>
+									<li class="d-flex"><span>BI Tools:</span> <span>Microsoft Power BI, Tableau</li>
+									<li class="d-flex"><span>Other Skills:</span> <span>Excel &amp; Git</span></li>
+									
+								</ul>
+							</div>
+						</div>
+
+
+						<div class="counter-wrap ftco-animate d-flex mt-md-3">
+							<div class="text">
+								<p class="mb-4">
+									<span class="number" data-number="9">0</span> <span>+</span>
+									<span>&nbsp; Projects completed <a href="https://github.com/dhaatri-sri" style="margin-left: 20px;" class="btn btn-primary py-3 px-3">Github</a></span>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+    </section>
+
+	<br>
+		
+        </div>
+		<div class="row justify-content-center pb-5">
+			<div class="col-md-10 heading-section text-center ftco-animate">
+			  <h1 class="big big-2">Education</h1>
+			  <h2 class="mb-4">Education</h2>
+			  <br>
+		  
+			  <div class="row">
+				<div class="col-md-4">
+				  <div class="resume-wrap ftco-animate">
+					<span class="date">2021-2025</span>
+					<h4>Bachelor of Technology (CSE)</h4>
+					<span class="position">SRM University AP - Amaravathi</span>
+					<p class="mt-4">CGPA: 8.12 / 10</p>
+				  </div>
+				</div>
+		  
+				<div class="col-md-4">
+				  <div class="resume-wrap ftco-animate">
+					<span class="date">2019-2021</span>
+					<h4>Higher Secondary School</h4>
+					<span class="position">Bhashyam Junior <br>College</span>
+					<p class="mt-4">Percentage: 94%</p>
+				  </div>
+				</div>
+		  
+				<div class="col-md-4">
+				  <div class="resume-wrap ftco-animate">
+					<span class="date">2019</span>
+					<h4>Secondary School <br> (X Class)</h4>
+					<span class="position">Bhashyam Blooms</span>
+					<span class="position"><br>CBSE</span>
+					<p class="mt-4">Percentage: 89%</p>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		  </div>		  
+
+<br>		
+		
+		<section class="ftco-section" id="project-section">
+			<div class="container position-relative">
+			  <div class="row justify-content-center mb-5 pb-5">
+				<div class="col-md-7 heading-section text-center ftco-animate">
+				  <h1 class="big big-2">Projects</h1>
+				  <h2 class="mb-4">Projects</h2>
+				  <p>Below are the sample Data Analytics & Web Development projects on SQL, Python, Power BI & ML, Html, Css, Js.</p>
+				</div>
+			  </div>
+			  <div class="arrow-container left-arrow">
+				<button class="scroll-btn left-btn">&lt;</button>
+			  </div>
+			  <div class="arrow-container right-arrow">
+				<button class="scroll-btn right-btn">&gt;</button>
+			  </div>
+			  <div class="row d-flex flex-nowrap overflow-auto" id="project-container">
+				<div class="col-md-4 d-flex ftco-animate">
+				  <div class="blog-entry justify-content-end">
+					<a target="_blank" href="https://Biswanth-CH.github.io/PrimeFlix/home.html" class="block-20 zoom-effect" style="background-image: url('images/primeflix.png');"></a>
+					<div class="text mt-3 float-right d-block">
+					  <h3 class="heading"><a href="https://biswanth-ch.github.io/PrimeFlix/home.html">OTT Platform Web Application</a></h3>
+					  <p>An Interactive Web Application</p>
+					</div>
+				  </div>
+				</div>
+				<div class="col-md-4 d-flex ftco-animate">
+				  <div class="blog-entry justify-content-end">
+					<a target="_blank" href="https://github.com/Biswanth-CH/HR-Exploratory-Data-Analysis-EDA" class="block-20 zoom-effect" style="background-image: url('images/hr.png');"></a>
+					<div class="text mt-3 float-right d-block">
+					  <h3 class="heading"><a href="https://github.com/Biswanth-CH/HR-Exploratory-Data-Analysis-EDA">HR exploratory Data Analysis</a></h3>
+					  <p>Performed exploratory data analysis on HR data using Python to improve the Employee Decision-making.</p>
+					</div>
+				  </div>
+				</div>
+				<div class="col-md-4 d-flex ftco-animate">
+				  <div class="blog-entry">
+					<a target="_blank" href="" class="block-20 zoom-effect" style="background-image: url('images/proj_3.jpg');"></a>
+					<div class="text mt-3 float-right d-block">
+					  <h3 class="heading"><a href="">Income Tax Calculator</a></h3>
+					  <p>This project will help people who want to know the income tax to be paid to the government and plan accordingly.</p>
+					</div>
+				  </div>
+				</div>
+				<div class="col-md-4 d-flex ftco-animate">
+				  <div class="blog-entry justify-content-end">
+					<a target="_blank" href="https://github.com/Biswanth-CH/Country-Data-Visualization-Using-Bokeh/tree/main" class="block-20 zoom-effect" style="background-image: url('images/country.png');"></a>
+					<div class="text mt-3 float-right d-block">
+					  <h3 class="heading"><a href="https://github.com/Biswanth-CH/Country-Data-Visualization-Using-Bokeh/tree/main">Country Data Visualization Using Bokeh</a></h3>
+					  <p>A Country Data Visualization project using Bokeh creates interactive charts to explore global data trends.</p>
+					</div>
+				  </div>
+				</div>
+				<div class="col-md-4 d-flex ftco-animate">
+				  <div class="blog-entry justify-content-end">
+					<a target="_blank" href="https://github.com/Biswanth-CH/Medical-Store-Management" class="block-20 zoom-effect" style="background-image: url('images/proj_5.jpg');"></a>
+					<div class="text mt-3 float-right d-block">
+					  <h3 class="heading"><a href="https://github.com/Biswanth-CH/Medical-Store-Management">Medical Store Management in Cpp</a></h3>
+					  <p>A C++ Medical Store Management project organizes inventory, sales, and customer data for efficient pharmacy operations.</p>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			  <br>
+			  <br>
+			</div>
+		  </section>
+		  
+		  
+	<!-- added justify-content-center to center align the last two projects -->
+	<div class="row d-flex justify-content-center">  
+		
+	 </div>
+  </div>
+</section>
+		
+    </section>
+
+	<br>
+	<section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
+		<div class="container">
+		  <div class="row d-md-flex align-items-center">
+			<div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+			  <div class="block-18">
+				<div class="text">
+				  <strong class="number" data-number="6">0</strong>
+				  <span>Achievements</span>
+				</div>
+			  </div>
+			</div>
+			<div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+			  <div class="block-18">
+				<div class="text">
+				  <strong class="number" data-number="9">0</strong>
+				  <span>Projects</span>
+				</div>
+			  </div>
+			</div>
+			<div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+			  <div class="block-18">
+				<div class="text">
+				  <strong class="number" data-number="7">0</strong>
+				  <span>Certificates</span>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  
+		<div class="ftco-section ftco-hireme img margin-top" style="background-image: url('images/blue.jpg')">
+			  <!-- <div class="container"> -->
+				  <div class="row justify-content-center">
+					  <div class="col-md-7 ftco-animate text-center">
+						  <h2>More projects on<span> Github  </span> </h2>
+						  <div class="heading"> <h4> I love to Play with data & build more Web Applications.</h4>
+						  <br>
+						  <p><a href="https://github.com/dhaatri-sri" class="btn btn-primary py-3 px-5">GitHub</a></p>
+						  </div>
+					  </div>
+				  </div>
+			  <!-- </div> -->
+		  </div>
+	  </section>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+</div>
+<div class="row justify-content-center pb-5">
+	<div class="col-md-10 heading-section text-center ftco-animate">
+	  <h1 class="big big-2">Internships</h1>
+	  <h2 class="mb-4">Internships</h2>
+	  <br>
+		
+		<div class="row">
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">2023 (Jun - Aug)</span>
+						<h2>APSSDC</h2>
+						<span class="position">Internship</span>
+						<p class="mt-4">The Andhra Pradesh State Skill Development Corporation (APSSDC) is a Government organization in Andhra Pradesh, India.
+							<ul>
+								<li>Data Analysis and Visualization: Utilized statistical methods and tools to analyze large datasets and identify trends and patterns.</li>
+								<li>Data Management and Reporting: Developed and implemented data collection and management systems to streamline processes and enhance Data accuracy.</li>
+							</ul>
+						</p>
+					</div>
+
+				</div>
+
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">2024 (Mar - May)</span>
+						<h2>Salesforce</h2>
+						<span class="position">Internship</span>
+						<p class="mt-4">Salesforce is the world's most trusted Customer Relationship Management (CRM) platform.
+							<ul>
+								<li>This is an 8-week virtual internship during which we completed Salesforce Trailhead module. Gaining skills mainly in Apex and API development.</li>
+								<li>Achieved 13 Super Badges and 43 Badges, including Apex Specialist, Process Automation Specialist,
+									and Developer Super Set, demonstrating advanced mastery over Salesforce development and automation.</li>
+							</ul>
+						</p>
+					</div>
+
+				</div>
+			</div>
+<br>
+<br>
+
+<section class="ftco-section ftco-no-pb" id="resume-section">
+	<div class="container">
+		<div class="row justify-content-center pb-5">
+	  <div class="col-md-10 heading-section text-center ftco-animate">
+		  <h1 class="big big-2">Resume</h1>
+		<h2 class="mb-4">Resume</h2>
+		<p>Aspiring data analyst with 4 months of internship experience, skilled in statistical analysis, data mining, and predictive modeling. Proficient in Python and SQL, focused on using data insights to help organizations grow.</p>
+		<div class="row justify-content-center mt-5">
+			<div class="col-md-6 text-center ftco-animate">
+				<p><a target="_blank" href="https://drive.google.com/file/d/1Zm4rrMvM0glVpUH0pIz9Zzmu2sm67ETo/view?usp=sharing" class="btn btn-primary py-4 px-5">Download Resume</a></p>
+				<br>
+				<br>
+			</div>
+		</div>
+	</div>
+
+<br>
+<br>
+<br>
+<br>
+
+<section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+	<div class="container">
+	  <div class="row justify-content-center mb-3 pb-3"> <!-- Reduced mb-5 to mb-3 -->
+		<div class="col-md-7 heading-section text-center ftco-animate">
+		  <h1 class="big big-2">Contact</h1>
+		  <h2 class="mb-4">Contact Me</h2>
+		  <p>Below are the details to reach out to me!</p>
+		</div>
+	  </div>
+
+	  <div class="row justify-content-between contact-info mb-5 g-4"> <!-- Changed justify-content-center to justify-content-between -->
+		<div class="col-md-4 d-flex ftco-animate">
+		  <div class="align-self-stretch box p-4 text-center">
+			<div class="icon d-flex align-items-center justify-content-center">
+			  <span class="icon-map-signs"></span>
+			</div>
+			<h3 class="mb-4">Address</h3>
+			<p style="white-space: nowrap;">Andhra Pradesh, India</p>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+		  <div class="align-self-stretch box p-4 text-center">
+			<div class="icon d-flex align-items-center justify-content-center">
+			  <span class="icon-phone2"></span>
+			</div>
+			<h3 class="mb-4">Contact Number</h3>
+			<p>+ 91 8125400896</p>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+		  <div class="align-self-stretch box p-4 text-center">
+			<div class="icon d-flex align-items-center justify-content-center">
+			  <span class="icon-paper-plane"></span>
+			</div>
+			<h3 class="mb-4">Email Address</h3>
+			<p>dhaatrisris@gmail.com</p>
+		  </div>
+		</div>
+	  </div>
+	</div>
+</section>
+<br>
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  
+  <script src="js/main.js"></script>
+  <script>
+	document.querySelector('.left-btn').addEventListener('click', function() {
+  document.getElementById('project-container').scrollBy({
+    left: -370,
+    behavior: 'smooth'
+  });
+});
+
+document.querySelector('.right-btn').addEventListener('click', function() {
+  document.getElementById('project-container').scrollBy({
+    left: 370,
+    behavior: 'smooth'
+  });
+});
+
+
+
+  </script>
+    
+  </body>
+</html>
